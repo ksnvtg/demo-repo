@@ -17,3 +17,20 @@ Python не має команди для оголошення змінної.З�
 ### Приклад
 ![image](https://github.com/ksnvtg/demo-repo/assets/130612714/a3e39b7c-6c8b-428c-8ce2-6e40af99e04a)
 ![image](https://github.com/ksnvtg/demo-repo/assets/130612714/904d0523-6037-4713-a630-bb3d1f0b6513)
+## Отримайте тип - Get the Type
+Ви можете отримати тип даних змінної за допомогою type() функції.
+### Приклад
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/c05cf347-03f7-4894-b0fc-18472000bacb)
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/9011012d-7c79-42c4-8b73-b300a45aefbb)
+Ви дізнаєтеся більше про типи даних(https://www.w3schools.com/python/python_datatypes.asp) і приведення(https://www.w3schools.com/python/python_casting.asp) пізніше в цьому посіьнику.
+## Одинарні чи подвійні лапки - Single or Double Quotes
+Рядкові змінні можна оголошувати за допомогою одинарних або подвійних лапок:
+### Приклад
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/e9037fae-937c-43d5-99d2-f501c91cce07)
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/74a4eb8f-1236-4194-86e0-847cce90fcdb)
+З урахуванням регістру - Case-Sensitive
+Імена змінних чутливі до регістру.
+### Приклад
+це створить дві змінні:
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/abb0dbed-489f-463f-ae6f-eb32375c734c)
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/34acfbc9-f967-400e-8d68-f4681bfa72e0)
