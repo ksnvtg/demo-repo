@@ -79,5 +79,31 @@ Python дозволяє призначати значення декільком
 ![image](https://github.com/ksnvtg/demo-repo/assets/130612714/75a415ea-086c-4a70-a197-d035338a90da)
 ![image](https://github.com/ksnvtg/demo-repo/assets/130612714/2eec7c9a-d31e-43cf-8003-f1e8845c3f2c)
 Дізнайтеся більше про розпакування в нашому розділі "Розпакування кортежів" https://www.w3schools.com/python/python_tuples_unpack.asp. 
+# Вихідні змінні - Output Variables
+Функція Python print() часто використовується для виведення змінних.
+### Приклад
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/83da4f6a-aa98-4c98-bd8f-f2f293efff5c)
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/d6b2b8b3-94c0-4856-8a0f-ebf99b7ed31d)
+У print() функції виводиться кілька змінних, розділених комою:
+### Приклад
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/ee8cbcde-fa4e-4ace-9ca6-b4e9ce5c3a7c)
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/b72f429c-e414-437d-8981-ac09d21aa0e1)
+Ви також можете використовувати + оператор для виведення кількох змінних:
+### Приклад
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/1c97f2bb-f87b-4803-853f-75a3794f91be)
+Зверніть увагу на пробіль після "Python " та "is ", без них результат був би "Pythonisawesome".
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/284e30af-a096-42d0-8c77-c6b76819a1d0)
+Для чисел + символ працює як математичний оператор:
+### Приклад
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/a3f9be05-fe57-45c3-9461-bf5e8b2e921b)
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/45e91f57-360c-4c6f-b54c-4e15cc159623)
+У print() функції, коли ви намагаєтеся поєднати рядок і число з + оператором, Python видасть вам помилку:
+### Приклад 
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/f03751a7-528c-4762-b69d-6d14506e4206)
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/d1f19b98-d79b-4bc2-a7b3-9f58fdf14c71)
+Найкращий спосіб виводити кілька змінних у print() функції - розділяти їх комами, що навіть підтримує різні типи даних:
+### Приклад
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/8adf3534-7cd4-4e2f-b5aa-bb19c2485c87)
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/a82c023d-86a0-4aaf-b0ca-8e1985fb9d97)
 
 
