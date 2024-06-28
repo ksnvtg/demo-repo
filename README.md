@@ -129,4 +129,39 @@ Python дозволяє призначати значення декільком
 Щоб змінити значення глобальної змінної всередині функції, зверніться до змінної за допомогою global ключового слова:
 ![image](https://github.com/ksnvtg/demo-repo/assets/130612714/c4e9f629-c678-4b39-b7e3-1ac63898b60b)
 ![image](https://github.com/ksnvtg/demo-repo/assets/130612714/521501a8-6aac-45bd-9c73-c9c34721c99f)
-
+# Типи даних - Python Data Types
+## Вбудовані типи даних - Built-in Data Types
+У програмуванні тип даних є важливим поняттям. Змінні можуть зберігати дані різних типів, і різні типи можуть виконувати різні дії. За замовчуванням Python має вбудовані такі типи даних у цих категоріях:
+- Тип тексту: str
+- Числові типи: int, float, complex
+- Типи послідовностей: list, tuple, range
+- Тип відображення: dict
+- Типи наборів: set, frozenset
+- Логічний тип: bool
+- Двійкові типи: bytes, bytearray, memoryview
+- Немає Тип: NoneType
+## Отримання типу даних - Getting the Data Type
+Ви можете отримати тип даних будь-якого об'єкта за допомогою функції type():
+## Приклад
+Вивести тип даних змінної x:
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/ae2734ee-5e14-4556-9a92-e46b69a0ecfd)
+![image](https://github.com/ksnvtg/demo-repo/assets/130612714/641ca2ef-9fae-412e-be5b-ef12f1bfb3e9)
+## Встановлення тип даних - Setting the Data Type
+У Python тип даних встановлюється, коли ви присвоюєте значення змінній:
+* x =  "Hello World" -> str
+* x = 20             -> int
+* x = 20.5           -> float
+* x = 1j             -> complex
+* x = ["apple", "banana", "cherry"] -> list
+* x = ("apple", "banana", "cherry") -> tuple
+* x = range(6)       -> range
+* x = {"name" : "John", "age" : 36} -> dict
+* x = {"apple", "banana", "cherry"} -> set
+* x = frozenset({"apple", "banana", "cherry"}) -> frozenset
+* x = True           -> bool
+* x = b"Hello"       -> bytes
+* x = bytearray(5)   -> bytearray
+* x = memoryview(bytes(5))  -> memoryview
+* x = None           -> NoneType
+## Встановлення конкретного типу даних - Settein the specific data type
+Якщо ви хочете вказати тип даних, ви можете використовувати наступні функції конструктора:
