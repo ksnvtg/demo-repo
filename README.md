@@ -315,4 +315,9 @@ Syntax
 Тут оператор assert у коді перевіряє, чи num є парним числом; якщо num є непарним, він викликає AssertionError, запускаючи блок винятків. 
 !!!Примітка!!!: винятки в else пункті не обробляються попередніми пунктами, крім.
 ## Python try...finnaly
-У Python finally блок 
+У Python finally блок завжди виконується, незалежно від того, є виняткова ситуація чи ні. Блок finally необов'язковий. І для кожного try блоку може бути лише один finally блок.
+### Приклад
+![image](https://github.com/user-attachments/assets/c4d6ac23-c890-4cdb-923c-ac44edea15e3)
+### Вихід
+![image](https://github.com/user-attachments/assets/dcbfea24-fde8-4eaf-b9e1-f3f73af3988b)
+У наведеному вище прикладі ми ділимо число на 0 всередині try блоку. Тут цей код генерує виняток. Висновок перехоплюється блоком except. Потім finally блок виконується.
